@@ -23,7 +23,7 @@
             {{ partial "icon.html" .Pre }}
           </span>
           {{ end }}
-          <p class="text-sm font-sm text-gray-500 hover:text-gray-900" title="{{ .Title }}">
+          <p class="text-sm font-sm text-gray-500 link-override" title="{{ .Title }}">
             {{ .Name | markdownify | emojify }}
           </p>
         </a>
